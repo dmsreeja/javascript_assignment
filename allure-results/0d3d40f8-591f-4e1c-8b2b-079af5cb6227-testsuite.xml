@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623230111735' stop='1623230172022'>
+    <name>workpage_scenario</name>
+    <title>workpage_scenario</title>
+    <test-cases>
+        <test-case start='1623230111736' status='broken' stop='1623230172017'>
+            <name>navigating to workbtn in linkedin</name>
+            <title>navigating to workbtn in linkedin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "workpage_scenario navigating to workbtn in linkedin" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FCI1286\Desktop\webdriverio_demo\test\specs\tc01_linked_in.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "workpage_scenario navigating to workbtn in linkedin" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\FCI1286\Desktop\webdriverio_demo\test\specs\tc01_linked_in.js)
+                    at createTimeoutError (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:555:17)
+                    at processTimers (internal/timers.js:498:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

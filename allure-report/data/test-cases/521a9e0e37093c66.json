@@ -1,0 +1,105 @@
+{
+  "uid" : "521a9e0e37093c66",
+  "name" : "navigating to jobsbtn in linkedin",
+  "fullName" : "jobspage_scenario.navigating to jobsbtn in linkedin",
+  "historyId" : "cfdea95b424ec530c9354ff5e9634ca6",
+  "time" : {
+    "start" : 1623229484601,
+    "stop" : 1623229544753,
+    "duration" : 60152
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"jobspage_scenario navigating to jobsbtn in linkedin\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\test\\specs\\tc_02_linked_in.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"jobspage_scenario navigating to jobsbtn in linkedin\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\test\\specs\\tc_02_linked_in.js)\n                    at createTimeoutError (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (internal/timers.js:555:17)\n                    at processTimers (internal/timers.js:498:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "testClass",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigating to jobsbtn in linkedin"
+  }, {
+    "name" : "package",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55b1340448f48ef8",
+      "status" : "broken",
+      "statusDetails" : "element (\"//a[@data-control-name='nav_jobs']\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1623225619512,
+        "stop" : 1623225676314,
+        "duration" : 56802
+      }
+    }, {
+      "uid" : "687c29c2b586bc1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623166694095,
+        "stop" : 1623166750283,
+        "duration" : 56188
+      }
+    }, {
+      "uid" : "de30390b37959f53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623157293535,
+        "stop" : 1623157332911,
+        "duration" : 39376
+      }
+    }, {
+      "uid" : "1c6f79c9da81ef25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623156206163,
+        "stop" : 1623156246900,
+        "duration" : 40737
+      }
+    }, {
+      "uid" : "d6c2e72a8fb8b463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623155339886,
+        "stop" : 1623155380209,
+        "duration" : 40323
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "521a9e0e37093c66.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

@@ -1,0 +1,75 @@
+{
+  "uid" : "d67a9a2e8407fedb",
+  "name" : "navigating to workbtn in linkedin",
+  "fullName" : "workpage_scenario.navigating to workbtn in linkedin",
+  "historyId" : "d56b4a9f7c17cfe47bc1bda5aafadf50",
+  "time" : {
+    "start" : 1623229484601,
+    "stop" : 1623229530808,
+    "duration" : 46207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "workpage_scenario"
+  }, {
+    "name" : "testClass",
+    "value" : "workpage_scenario"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigating to workbtn in linkedin"
+  }, {
+    "name" : "package",
+    "value" : "workpage_scenario"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f253ebcae506024b",
+      "status" : "broken",
+      "statusDetails" : "element (\"//button[@class='global-nav__primary-link']\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1623225619511,
+        "stop" : 1623225667171,
+        "duration" : 47660
+      }
+    }, {
+      "uid" : "a162a4f086e4c00c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623166694092,
+        "stop" : 1623166753209,
+        "duration" : 59117
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d67a9a2e8407fedb.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

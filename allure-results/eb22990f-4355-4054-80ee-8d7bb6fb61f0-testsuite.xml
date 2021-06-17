@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623156206162' stop='1623156246904'>
+    <name>jobspage_scenario</name>
+    <title>jobspage_scenario</title>
+    <test-cases>
+        <test-case start='1623156206163' status='passed' stop='1623156246900'>
+            <name>navigating to jobsbtn in linkedin</name>
+            <title>navigating to jobsbtn in linkedin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='88863fb0-876f-43bc-971d-46ff2a8823f3-attachment.png' type='image/png' size='259906'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

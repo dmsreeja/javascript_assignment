@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"jobspage_scenario navigating to jobsbtn in linkedin\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\test\\specs\\tc_02_linked_in.js)",
+      "children" : [ {
+        "name" : "navigating to jobsbtn in linkedin",
+        "uid" : "521a9e0e37093c66",
+        "parentUid" : "51042dabda50cbb8b04ab380f5fcce78",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623229484601,
+          "stop" : 1623229544753,
+          "duration" : 60152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.77" ]
+      } ],
+      "uid" : "51042dabda50cbb8b04ab380f5fcce78"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

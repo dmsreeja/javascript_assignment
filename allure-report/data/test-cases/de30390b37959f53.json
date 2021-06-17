@@ -1,0 +1,56 @@
+{
+  "uid" : "de30390b37959f53",
+  "name" : "navigating to jobsbtn in linkedin",
+  "fullName" : "jobspage_scenario.navigating to jobsbtn in linkedin",
+  "historyId" : "cfdea95b424ec530c9354ff5e9634ca6",
+  "time" : {
+    "start" : 1623157293535,
+    "stop" : 1623157332911,
+    "duration" : 39376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "testClass",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigating to jobsbtn in linkedin"
+  }, {
+    "name" : "package",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de30390b37959f53.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

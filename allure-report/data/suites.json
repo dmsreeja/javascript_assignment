@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "workpage_scenario",
+    "children" : [ {
+      "name" : "navigating to workbtn in linkedin",
+      "uid" : "d67a9a2e8407fedb",
+      "parentUid" : "29f4b4527ed43709eecb04d3849b6a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623229484601,
+        "stop" : 1623229530808,
+        "duration" : 46207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "29f4b4527ed43709eecb04d3849b6a23"
+  }, {
+    "name" : "jobspage_scenario",
+    "children" : [ {
+      "name" : "navigating to jobsbtn in linkedin",
+      "uid" : "521a9e0e37093c66",
+      "parentUid" : "b36f24d9457d44c13498a58cb92e3b8b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623229484601,
+        "stop" : 1623229544753,
+        "duration" : 60152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "b36f24d9457d44c13498a58cb92e3b8b"
+  } ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "55b1340448f48ef8",
+  "name" : "navigating to jobsbtn in linkedin",
+  "fullName" : "jobspage_scenario.navigating to jobsbtn in linkedin",
+  "historyId" : "cfdea95b424ec530c9354ff5e9634ca6",
+  "time" : {
+    "start" : 1623225619512,
+    "stop" : 1623225676314,
+    "duration" : 56802
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//a[@data-control-name='nav_jobs']\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"//a[@data-control-name='nav_jobs']\") still not clickable after 10000ms\n                    at C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at userPage.mousepress (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\test\\pageobjects\\base_class.js:8:9)\n                    at Context.<anonymous> (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\test\\specs\\tc_02_linked_in.js:20:9)\n                    at Context.executeAsync (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//a[@data-control-name='nav_jobs']\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"//a[@data-control-name='nav_jobs']\") still not clickable after 10000ms\n                    at C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at userPage.mousepress (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\test\\pageobjects\\base_class.js:8:9)\n                    at Context.<anonymous> (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\test\\specs\\tc_02_linked_in.js:20:9)\n                    at Context.executeAsync (C:\\Users\\FCI1286\\Desktop\\webdriverio_demo\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bc4d23a815caddd8",
+      "name" : "Screenshot",
+      "source" : "bc4d23a815caddd8.png",
+      "type" : "image/png",
+      "size" : 39615
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "testClass",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigating to jobsbtn in linkedin"
+  }, {
+    "name" : "package",
+    "value" : "jobspage_scenario"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55b1340448f48ef8.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

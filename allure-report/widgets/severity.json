@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d67a9a2e8407fedb",
+  "name" : "navigating to workbtn in linkedin",
+  "time" : {
+    "start" : 1623229484601,
+    "stop" : 1623229530808,
+    "duration" : 46207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "521a9e0e37093c66",
+  "name" : "navigating to jobsbtn in linkedin",
+  "time" : {
+    "start" : 1623229484601,
+    "stop" : 1623229544753,
+    "duration" : 60152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

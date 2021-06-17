@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623225619510' stop='1623225676318'>
+    <name>jobspage_scenario</name>
+    <title>jobspage_scenario</title>
+    <test-cases>
+        <test-case start='1623225619512' status='broken' stop='1623225676314'>
+            <name>navigating to jobsbtn in linkedin</name>
+            <title>navigating to jobsbtn in linkedin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f23d1248-88bd-4ce1-9143-3a9259f783d2-attachment.png' type='image/png' size='39615'/>
+            </attachments>
+            <failure>
+                <message>element ("//a[@data-control-name='nav_jobs']") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("//a[@data-control-name='nav_jobs']") still not clickable after 10000ms
+                    at C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.wrapCommandFn (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at userPage.mousepress (C:\Users\FCI1286\Desktop\webdriverio_demo\test\pageobjects\base_class.js:8:9)
+                    at Context.&lt;anonymous> (C:\Users\FCI1286\Desktop\webdriverio_demo\test\specs\tc_02_linked_in.js:20:9)
+                    at Context.executeAsync (C:\Users\FCI1286\Desktop\webdriverio_demo\node_modules\@wdio\utils\build\shim.js:136:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

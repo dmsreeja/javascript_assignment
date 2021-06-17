@@ -1,0 +1,130 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "navigating to jobsbtn in linkedin",
+      "uid" : "55b1340448f48ef8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623225619512,
+        "stop" : 1623225676314,
+        "duration" : 56802
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "navigating to jobsbtn in linkedin",
+      "uid" : "d6c2e72a8fb8b463",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623155339886,
+        "stop" : 1623155380209,
+        "duration" : 40323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "navigating to jobsbtn in linkedin",
+      "uid" : "521a9e0e37093c66",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623229484601,
+        "stop" : 1623229544753,
+        "duration" : 60152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "navigating to jobsbtn in linkedin",
+      "uid" : "1c6f79c9da81ef25",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623156206163,
+        "stop" : 1623156246900,
+        "duration" : 40737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "navigating to jobsbtn in linkedin",
+      "uid" : "687c29c2b586bc1a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623166694095,
+        "stop" : 1623166750283,
+        "duration" : 56188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "navigating to jobsbtn in linkedin",
+      "uid" : "de30390b37959f53",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623157293535,
+        "stop" : 1623157332911,
+        "duration" : 39376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "navigating to workbtn in linkedin",
+      "uid" : "a162a4f086e4c00c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623166694092,
+        "stop" : 1623166753209,
+        "duration" : 59117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "navigating to workbtn in linkedin",
+      "uid" : "f253ebcae506024b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623225619511,
+        "stop" : 1623225667171,
+        "duration" : 47660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "navigating to workbtn in linkedin",
+      "uid" : "d67a9a2e8407fedb",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623229484601,
+        "stop" : 1623229530808,
+        "duration" : 46207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ]
+}
